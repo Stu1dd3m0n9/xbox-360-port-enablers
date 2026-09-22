@@ -33,11 +33,10 @@ Deploy with `xbcp`, run with `xbreboot`, park the box back on xshell when done.
 
 
 1. No `D3DXCompileShader` on HW — precompile with `fxc /Fh`.
-2. `main()` returning powers the box off — loop forever.
-3. printf-style calls: only the first 5 varargs survive (picolibc vs MS-PPC ABI).
-4. Textures are TILED: upload with `XGTileTextureLevel` into the locked pointer.
+2. printf-style calls: only the first 5 varargs survive (picolibc vs MS-PPC ABI).
+3. Textures are TILED: upload with `XGTileTextureLevel` into the locked pointer.
    `D3DUSAGE_DYNAMIC`, `StretchRect`, `GetRenderTargetData` don't exist here.
-5. Backbuffer `LockRect` faults — never lock the backbuffer.
+4. Backbuffer `LockRect` faults — never lock the backbuffer.
 
 ## License
 
