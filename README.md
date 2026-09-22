@@ -39,7 +39,7 @@ Deploy with `xbcp`, run with `xbreboot`, park the box back on xshell when done.
 4. Backbuffer `LockRect` faults — never lock the backbuffer.
 ## Extra notes
 1. Any mention of specific paths will need to remapped, its setup for my PC, easily fixable by someone.
-2. Sm64 mentuons are because I used sm64 source to learn how to use rxdk360 correctly.
+2. Sm64 mentuons are because I used sm64 source from the decomp to learn how to use rxdk360 correctly, just ignore.
  
 ## License
 
