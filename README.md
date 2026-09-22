@@ -5,7 +5,7 @@ with RXDK-360: D3D9 framebuffer blit, XAudio2 audio, XInput pads,
 threads/timer, TCP reporting, plus Lua and stb notes. Everything here is
 verified on real hardware.
 
-Requires: RXDK-360 1.0.0, your own Xbox 360 XDK install, Visual Studio 2022,
+Requires: RXDK-360 1.0.0, your own Xbox 360 SDK install, Visual Studio 2022,
 Python 3 (`py -3` launcher). No XDK content is redistributed.
 
 ## Modules
