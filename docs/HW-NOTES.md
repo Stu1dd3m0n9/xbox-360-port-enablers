@@ -1,4 +1,4 @@
-# Hardware notes (xdkbuild Zephyr behind RGLoader, RXDK-360 1.0.0)
+# Hardware notes (xdkbuild Zephyr behind RGLoader, RXDK-360)
 
 All reproduced on real hardware. Numbers are load-bearing, hunches are marked.
 
